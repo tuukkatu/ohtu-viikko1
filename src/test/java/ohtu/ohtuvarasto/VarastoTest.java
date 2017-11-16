@@ -84,7 +84,7 @@ public class VarastoTest {
     public void varastoonLisataanNegatiivinenMaara(){
         varasto.lisaaVarastoon(-4);
         
-        assertEquals(10, varasto.paljonkoMahtuu(), vertailuTarkkuus);
+        assertEquals(9, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
     
     @Test
